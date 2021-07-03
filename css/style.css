@@ -1,0 +1,66 @@
+
+
+.hero-image{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/food.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-wrapper{
+    color: #fff;
+    position: absolute;
+    top :55%;
+    left:55%;
+    transform: translate(-55%,-55%);
+
+    
+}
+.hero-wrapper h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+   
+
+}
+.form{
+    text-align: center;
+}
+
+.post{
+    display: block;
+    width: 80%;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 5px;
+   border: none;
+   outline:none;
+   text-transform: uppercase;
+
+
+
+}
+.form button {
+    width: 30%;
+    
+    font-size: bold ;
+  
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: seagreen;
+    color: seashell;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+
+}
+.form button:hover{
+    background-color:black;
+    color:white;
+}
